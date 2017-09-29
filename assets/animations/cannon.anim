@@ -1,0 +1,111 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "cannon",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 1.25,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "opacity": [
+        {
+          "frame": 0,
+          "value": 255
+        },
+        {
+          "frame": 1.1166666666666667,
+          "value": 255
+        },
+        {
+          "frame": 1.25,
+          "value": 0
+        }
+      ]
+    },
+    "paths": {
+      "bakuhatsu2": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 1,
+              "value": 0
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 1,
+              "value": 0
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "cannon": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -128,
+                42
+              ],
+              "motionPath": [
+                [
+                  22,
+                  192,
+                  -49,
+                  192,
+                  95,
+                  192
+                ]
+              ]
+            },
+            {
+              "frame": 1,
+              "value": [
+                160,
+                42
+              ],
+              "motionPath": []
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255,
+              "curve": "constant"
+            },
+            {
+              "frame": 1,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 1,
+      "func": "_checkHit",
+      "params": []
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "normalBullet",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 1,
+  "sample": 30,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {},
+    "paths": {
+      "bullet": {
+        "props": {
+          "x": [
+            {
+              "frame": 0,
+              "value": -125
+            },
+            {
+              "frame": 0.5,
+              "value": 150
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255,
+              "curve": "constant"
+            },
+            {
+              "frame": 0.5,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "explosion": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.4666666666666667,
+              "value": 0
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": 1
+            },
+            {
+              "frame": 1,
+              "value": 0.8
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.4666666666666667,
+              "value": 0
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": 1
+            },
+            {
+              "frame": 1,
+              "value": 0.8
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": 255
+            },
+            {
+              "frame": 1,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0.4666666666666667,
+      "func": "_checkHit",
+      "params": []
+    }
+  ]
+}
